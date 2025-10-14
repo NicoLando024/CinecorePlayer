@@ -13,6 +13,7 @@ The player targets **high-quality playback** while keeping a simple “open-and-
 
 - ✅ **Playback core is solid**: **audio and video are complete** in both **HDR** and **SDR** paths (with renderer selection and bitstream heuristics).  
 - ⚠️ **HUD / UI overlays are unstable**: visual glitches, timing/opacity issues, and occasional layout bugs are known. Expect rough edges while the UX is being refactored.
+- ⚠️ **MPC Video Renderer Black screen issue**
 
 If you can live with UI quirks, the underlying player already works well for local files.
 
