@@ -13,14 +13,10 @@ A **free**, **non‑commercial** media player for Windows, written in **C# / .NE
 ## 🚦 Project status (truthful, current)
 
 * ✅ **Playback engine**: audio/video paths (HDR & SDR).
-* ⚠️ **HUD**: fairly feature‑complete but **unstable** due to interactions with video renderers (focus, z‑order, repaint timing/opacity, synchronization).
-* ⚠️ **Home (Settings / Info)**: **not implemented** (placeholders only).
+* ⚠️ **HUD**: fairly feature‑complete
 * ⚠️ **Code quality**: **messy / not optimized**; no obvious performance issues, but it needs refactoring.
-* ⚠️ **Exclusive fullscreen**: **missing** (only borderless fullscreen).
 * ⚠️ **Bitstream volume**: **binary ON/OFF** only (no fine‑grained control on passthrough).
-* ⚠️ **Audio‑only mode**: visual bug that **hides some UI elements**.
-* ⚠️ **Overlays vs renderer**: rendering conflicts/artefacts; several intended features are still missing.
-* ⚠️ **Info overlay**: **incomplete** and often **inaccurate** (values may be wrong or show *n/a*).
+* ⚠️ **Info overlay**: **NOT WORKING**.
 * ⚠️ **3D conversion (SBS/TAB → 2D)**: **works only with EVR**.
 * ⚠️ **Language & Chapters**: get **stuck/blocked** if selected **before** opening a movie (initialization bug).
 * ❌ **Subtitles**: **not working** (selection ineffective / pipeline not wired yet).
