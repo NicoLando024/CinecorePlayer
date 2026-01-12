@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "dgSpecHash": "POTE+8fsC6w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicol\\.nuget\\packages\\directshowlib\\1.0.0\\directshowlib.1.0.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\ffmpeg.autogen\\7.1.1\\ffmpeg.autogen.7.1.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\harfbuzzsharp\\8.3.1.1\\harfbuzzsharp.8.3.1.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.1.1\\harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.1.1\\harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\livechartscore\\2.0.0-rc6.1\\livechartscore.2.0.0-rc6.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-rc6.1\\livechartscore.skiasharpview.2.0.0-rc6.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\livechartscore.skiasharpview.winforms\\2.0.0-rc6.1\\livechartscore.skiasharpview.winforms.2.0.0-rc6.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\makaretu.dns\\2.0.1\\makaretu.dns.2.0.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0\\microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.winforms\\2.2.1\\naudio.winforms.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\opentk\\3.1.0\\opentk.3.1.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\opentk.glcontrol\\3.1.0\\opentk.glcontrol.3.1.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\simplebase\\1.3.1\\simplebase.1.3.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp\\3.119.0\\skiasharp.3.119.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp.harfbuzz\\3.119.0\\skiasharp.harfbuzz.3.119.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.119.0\\skiasharp.nativeassets.macos.3.119.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.119.1\\skiasharp.nativeassets.win32.3.119.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp.views.desktop.common\\3.119.0\\skiasharp.views.desktop.common.3.119.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\skiasharp.views.windowsforms\\3.119.0\\skiasharp.views.windowsforms.3.119.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.drawing.common\\9.0.0\\system.drawing.common.9.0.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\windowsapicodepack-core\\1.1.2\\windowsapicodepack-core.1.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'DirectShowLib 1.0.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "DirectShowLib",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'LiveChartsCore.SkiaSharpView.WinForms 2.0.0-rc6.1' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "LiveChartsCore.SkiaSharpView.WinForms",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'OpenTK 3.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'OpenTK.GLControl 3.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'SkiaSharp.Views.WindowsForms 3.119.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "SkiaSharp.Views.WindowsForms",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Il pacchetto 'WindowsAPICodePack-Core 1.1.2' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "libraryId": "WindowsAPICodePack-Core",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}

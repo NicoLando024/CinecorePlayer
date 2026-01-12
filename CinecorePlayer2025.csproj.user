@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Carousel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.ContentScan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Controls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Core.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Dlna.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.FileSystem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Navigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Panes.UrlPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Panes.YouTubePane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Stores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Thumbnails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MediaLibrary\MediaLibraryPage.Win32AndGdi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

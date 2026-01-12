@@ -1,0 +1,1547 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "DirectShowLib/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/DirectShowLib.dll": {}
+        },
+        "runtime": {
+          "lib/DirectShowLib.dll": {}
+        }
+      },
+      "FFmpeg.AutoGen/7.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HarfBuzzSharp/8.3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.1.1",
+          "HarfBuzzSharp.NativeAssets.macOS": "8.3.1.1"
+        },
+        "compile": {
+          "lib/net8.0/HarfBuzzSharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/HarfBuzzSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/8.3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "LiveChartsCore/2.0.0-rc6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/LiveChartsCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LiveChartsCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LiveChartsCore.SkiaSharpView/2.0.0-rc6.1": {
+        "type": "package",
+        "dependencies": {
+          "LiveChartsCore": "2.0.0-rc6.1",
+          "SkiaSharp": "2.88.9",
+          "SkiaSharp.HarfBuzz": "2.88.9"
+        },
+        "compile": {
+          "lib/net8.0/LiveChartsCore.SkiaSharpView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LiveChartsCore.SkiaSharpView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LiveChartsCore.SkiaSharpView.WinForms/2.0.0-rc6.1": {
+        "type": "package",
+        "dependencies": {
+          "LiveChartsCore": "2.0.0-rc6.1",
+          "LiveChartsCore.SkiaSharpView": "2.0.0-rc6.1",
+          "SkiaSharp.HarfBuzz": "3.119.0",
+          "SkiaSharp.Views.WindowsForms": "3.119.0"
+        },
+        "compile": {
+          "lib/net462/LiveChartsCore.SkiaSharpView.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/LiveChartsCore.SkiaSharpView.WinForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Makaretu.Dns/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SimpleBase": "1.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Makaretu.Dns.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Makaretu.Dns.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "NAudio/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Asio": "2.2.1",
+          "NAudio.Core": "2.2.1",
+          "NAudio.Midi": "2.2.1",
+          "NAudio.Wasapi": "2.2.1",
+          "NAudio.WinForms": "2.2.1",
+          "NAudio.WinMM": "2.2.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Asio/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Core/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Midi/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.WinForms/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.WinMM": "2.2.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "NAudio.WinMM/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTK/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.GLControl/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.1.0"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SimpleBase/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/SimpleBase.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/SimpleBase.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp/3.119.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.0",
+          "SkiaSharp.NativeAssets.macOS": "3.119.0"
+        },
+        "compile": {
+          "ref/net8.0/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/3.119.0": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1",
+          "SkiaSharp": "3.119.0"
+        },
+        "compile": {
+          "lib/net8.0/SkiaSharp.HarfBuzz.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.HarfBuzz.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/3.119.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/3.119.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views.Desktop.Common/3.119.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "3.119.0"
+        },
+        "compile": {
+          "lib/net8.0/SkiaSharp.Views.Desktop.Common.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.Views.Desktop.Common.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SkiaSharp.Views.WindowsForms/3.119.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.1.0",
+          "OpenTK.GLControl": "3.1.0",
+          "SkiaSharp": "3.119.0",
+          "SkiaSharp.Views.Desktop.Common": "3.119.0"
+        },
+        "compile": {
+          "lib/net462/SkiaSharp.Views.WindowsForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net462/SkiaSharp.Views.WindowsForms.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "System.Drawing.Common/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "WindowsAPICodePack-Core/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/Microsoft.WindowsAPICodePack.dll": {}
+        },
+        "runtime": {
+          "lib/Microsoft.WindowsAPICodePack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DirectShowLib/1.0.0": {
+      "sha512": "oWwOk9Lj8JIMWPsfx8bUbJ/uWhHlRKpMaU5oVf8Kl9SLMhmrnr0kXg0ebDv3oOmKxZ/D1yrmw+x7UGmgMqUxFA==",
+      "type": "package",
+      "path": "directshowlib/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "directshowlib.1.0.0.nupkg.sha512",
+        "directshowlib.nuspec",
+        "lib/DirectShowLib.dll",
+        "lib/DirectShowLib.pdb"
+      ]
+    },
+    "FFmpeg.AutoGen/7.1.1": {
+      "sha512": "p4FGdG654zut4Iseg7PeYo7sxFMOTuLTEKl/vX+44UQ6NmezF3wHcR6JzjH8xzK4VDPLJe5Xz563kXamMQj7Jg==",
+      "type": "package",
+      "path": "ffmpeg.autogen/7.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "ffmpeg.autogen.7.1.1.nupkg.sha512",
+        "ffmpeg.autogen.nuspec",
+        "lib/netstandard2.0/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.0/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.1/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.1/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "HarfBuzzSharp/8.3.1.1": {
+      "sha512": "tLZN66oe/uiRPTZfrCU4i8ScVGwqHNh5MHrXj0yVf4l7Mz0FhTGnQ71RGySROTmdognAs0JtluHkL41pIabWuQ==",
+      "type": "package",
+      "path": "harfbuzzsharp/8.3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "harfbuzzsharp.8.3.1.1.nupkg.sha512",
+        "harfbuzzsharp.nuspec",
+        "icon.png",
+        "lib/net462/HarfBuzzSharp.dll",
+        "lib/net462/HarfBuzzSharp.pdb",
+        "lib/net6.0/HarfBuzzSharp.dll",
+        "lib/net6.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-android34.0/HarfBuzzSharp.dll",
+        "lib/net8.0-android34.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-android34.0/HarfBuzzSharp.xml",
+        "lib/net8.0-ios17.0/HarfBuzzSharp.dll",
+        "lib/net8.0-ios17.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-maccatalyst17.0/HarfBuzzSharp.dll",
+        "lib/net8.0-maccatalyst17.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-macos14.0/HarfBuzzSharp.dll",
+        "lib/net8.0-macos14.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-tizen7.0/HarfBuzzSharp.dll",
+        "lib/net8.0-tizen7.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-tvos17.0/HarfBuzzSharp.dll",
+        "lib/net8.0-tvos17.0/HarfBuzzSharp.pdb",
+        "lib/net8.0-windows10.0.19041/HarfBuzzSharp.dll",
+        "lib/net8.0-windows10.0.19041/HarfBuzzSharp.pdb",
+        "lib/net8.0/HarfBuzzSharp.dll",
+        "lib/net8.0/HarfBuzzSharp.pdb",
+        "lib/netstandard2.0/HarfBuzzSharp.dll",
+        "lib/netstandard2.0/HarfBuzzSharp.pdb",
+        "lib/netstandard2.1/HarfBuzzSharp.dll",
+        "lib/netstandard2.1/HarfBuzzSharp.pdb"
+      ]
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/8.3.1.1": {
+      "sha512": "jbtCsgftcaFLCA13tVKo5iWdElJScrulLTKJre36O4YQTIlwDtPPqhRZNk+Y0vv4D1gxbscasGRucUDfS44ofQ==",
+      "type": "package",
+      "path": "harfbuzzsharp.nativeassets.macos/8.3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "buildTransitive/net462/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net8.0-macos14.0/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
+        "harfbuzzsharp.nativeassets.macos.nuspec",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net6.0/_._",
+        "lib/net8.0-macos14.0/_._",
+        "lib/net8.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/osx/native/libHarfBuzzSharp.dylib"
+      ]
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1": {
+      "sha512": "UsJtQsfAJoFDZrXc4hCUfRPMqccfKZ0iumJ/upcUjz/cmsTgVFGNEL5yaJWmkqsuFYdMWbj/En5/kS4PFl9hBA==",
+      "type": "package",
+      "path": "harfbuzzsharp.nativeassets.win32/8.3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "buildTransitive/net462/HarfBuzzSharp.NativeAssets.Win32.targets",
+        "harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
+        "harfbuzzsharp.nativeassets.win32.nuspec",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net6.0-windows10.0.19041/_._",
+        "lib/net6.0/_._",
+        "lib/net8.0-windows10.0.19041/_._",
+        "lib/net8.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
+        "runtimes/win-x64/native/libHarfBuzzSharp.dll",
+        "runtimes/win-x86/native/libHarfBuzzSharp.dll"
+      ]
+    },
+    "LiveChartsCore/2.0.0-rc6.1": {
+      "sha512": "yaeFXCpH7AspjMKzXNdfr1Ikg06Dm+a4XRW/8wBtHAa/TEVJLY8yBsG6pNpjrPk+FpRaSImlNYw7pv298W1XPw==",
+      "type": "package",
+      "path": "livechartscore/2.0.0-rc6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/LiveChartsCore.dll",
+        "lib/net462/LiveChartsCore.xml",
+        "lib/net6.0-windows10.0.19041/LiveChartsCore.dll",
+        "lib/net6.0-windows10.0.19041/LiveChartsCore.xml",
+        "lib/net8.0-android34.0/LiveChartsCore.dll",
+        "lib/net8.0-android34.0/LiveChartsCore.xml",
+        "lib/net8.0-ios18.0/LiveChartsCore.dll",
+        "lib/net8.0-ios18.0/LiveChartsCore.xml",
+        "lib/net8.0-maccatalyst18.0/LiveChartsCore.dll",
+        "lib/net8.0-maccatalyst18.0/LiveChartsCore.xml",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.dll",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.xml",
+        "lib/net8.0/LiveChartsCore.dll",
+        "lib/net8.0/LiveChartsCore.xml",
+        "lib/netstandard2.0/LiveChartsCore.dll",
+        "lib/netstandard2.0/LiveChartsCore.xml",
+        "lib/netstandard2.1/LiveChartsCore.dll",
+        "lib/netstandard2.1/LiveChartsCore.xml",
+        "livechartscore.2.0.0-rc6.1.nupkg.sha512",
+        "livechartscore.nuspec"
+      ]
+    },
+    "LiveChartsCore.SkiaSharpView/2.0.0-rc6.1": {
+      "sha512": "FU+0uIxL3xR631+4aN296L+M3f6qWrIEUJr8+SSmcGVVa27iB0+ko55IRInZGdYlmaR+8mRTPAXObXT6/1EMDQ==",
+      "type": "package",
+      "path": "livechartscore.skiasharpview/2.0.0-rc6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net462/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0-android34.0/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0-android34.0/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0-ios18.0/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0-ios18.0/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0-maccatalyst18.0/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0-maccatalyst18.0/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0-windows10.0.20348/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0-windows10.0.20348/LiveChartsCore.SkiaSharpView.xml",
+        "lib/net8.0/LiveChartsCore.SkiaSharpView.dll",
+        "lib/net8.0/LiveChartsCore.SkiaSharpView.xml",
+        "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll",
+        "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.xml",
+        "lib/netstandard2.1/LiveChartsCore.SkiaSharpView.dll",
+        "lib/netstandard2.1/LiveChartsCore.SkiaSharpView.xml",
+        "livechartscore.skiasharpview.2.0.0-rc6.1.nupkg.sha512",
+        "livechartscore.skiasharpview.nuspec"
+      ]
+    },
+    "LiveChartsCore.SkiaSharpView.WinForms/2.0.0-rc6.1": {
+      "sha512": "XW3snUNPDLn+WwYsR1Rz5fV9qzrhmzzotgE5dGlDpmk+gRizaBvjDmJIo1H1OW0qn0DeEq39HnB/br1yeALzsA==",
+      "type": "package",
+      "path": "livechartscore.skiasharpview.winforms/2.0.0-rc6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/LiveChartsCore.SkiaSharpView.WinForms.dll",
+        "lib/net462/LiveChartsCore.SkiaSharpView.WinForms.xml",
+        "lib/net6.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.WinForms.dll",
+        "lib/net6.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.WinForms.xml",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.WinForms.dll",
+        "lib/net8.0-windows10.0.19041/LiveChartsCore.SkiaSharpView.WinForms.xml",
+        "livechartscore.skiasharpview.winforms.2.0.0-rc6.1.nupkg.sha512",
+        "livechartscore.skiasharpview.winforms.nuspec"
+      ]
+    },
+    "Makaretu.Dns/2.0.1": {
+      "sha512": "qe/5w5Q/i2Xz2ZnCq3E49kLAtVFRuuBn40C1mQPWbLDwlHM0KVDzCkFqwxDedv7JgQis66Z9AZKyo1zCTRrdYA==",
+      "type": "package",
+      "path": "makaretu.dns/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Makaretu.Dns.dll",
+        "lib/net45/Makaretu.Dns.pdb",
+        "lib/net45/Makaretu.Dns.xml",
+        "lib/net472/Makaretu.Dns.dll",
+        "lib/net472/Makaretu.Dns.pdb",
+        "lib/net472/Makaretu.Dns.xml",
+        "lib/netstandard1.4/Makaretu.Dns.dll",
+        "lib/netstandard1.4/Makaretu.Dns.pdb",
+        "lib/netstandard1.4/Makaretu.Dns.xml",
+        "lib/netstandard2.0/Makaretu.Dns.dll",
+        "lib/netstandard2.0/Makaretu.Dns.pdb",
+        "lib/netstandard2.0/Makaretu.Dns.xml",
+        "makaretu.dns.2.0.1.nupkg.sha512",
+        "makaretu.dns.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/9.0.0": {
+      "sha512": "z8FfGIaoeALdD+KF44A2uP8PZIQQtDGiXsOLuN8nohbKhkyKt7zGaZb+fKiCxTuBqG22Q7myIAioSWaIcOOrOw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "NAudio/2.2.1": {
+      "sha512": "c0DzwiyyklM0TP39Y7RObwO3QkWecgM6H60ikiEnsV/aEAJPbj5MFCLaD8BSfKuZe0HGuh9GRGWWlJmSxDc9MA==",
+      "type": "package",
+      "path": "naudio/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.dll",
+        "lib/net472/NAudio.xml",
+        "lib/net6.0-windows7.0/NAudio.dll",
+        "lib/net6.0-windows7.0/NAudio.xml",
+        "lib/net6.0/NAudio.dll",
+        "lib/net6.0/NAudio.xml",
+        "lib/netcoreapp3.1/NAudio.dll",
+        "lib/netcoreapp3.1/NAudio.xml",
+        "license.txt",
+        "naudio-icon.png",
+        "naudio.2.2.1.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
+    "NAudio.Asio/2.2.1": {
+      "sha512": "hQglyOT5iT3XuGpBP8ZG0+aoqwRfidHjTNehpoWwX0g6KJEgtH2VaqM2nuJ2mheKZa/IBqB4YQTZVvrIapzfOA==",
+      "type": "package",
+      "path": "naudio.asio/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Asio.dll",
+        "lib/netstandard2.0/NAudio.Asio.xml",
+        "naudio-icon.png",
+        "naudio.asio.2.2.1.nupkg.sha512",
+        "naudio.asio.nuspec"
+      ]
+    },
+    "NAudio.Core/2.2.1": {
+      "sha512": "GgkdP6K/7FqXFo7uHvoqGZTJvW4z8g2IffhOO4JHaLzKCdDOUEzVKtveoZkCuUX8eV2HAINqi7VFqlFndrnz/g==",
+      "type": "package",
+      "path": "naudio.core/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Core.dll",
+        "lib/netstandard2.0/NAudio.Core.xml",
+        "naudio-icon.png",
+        "naudio.core.2.2.1.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Midi/2.2.1": {
+      "sha512": "6r23ylGo5aeP02WFXsPquz0T0hFJWyh+7t++tz19tc3Kr38NHm+Z9j+FiAv+xkH8tZqXJqus9Q8p6u7bidIgbw==",
+      "type": "package",
+      "path": "naudio.midi/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Midi.dll",
+        "lib/netstandard2.0/NAudio.Midi.xml",
+        "naudio-icon.png",
+        "naudio.midi.2.2.1.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    },
+    "NAudio.Wasapi/2.2.1": {
+      "sha512": "lFfXoqacZZe0WqNChJgGYI+XV/n/61LzPHT3C1CJp4khoxeo2sziyX5wzNYWeCMNbsWxFvT3b3iXeY1UYjBhZw==",
+      "type": "package",
+      "path": "naudio.wasapi/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Wasapi.dll",
+        "lib/netstandard2.0/NAudio.Wasapi.xml",
+        "lib/uap10.0.18362/NAudio.Wasapi.dll",
+        "lib/uap10.0.18362/NAudio.Wasapi.pri",
+        "lib/uap10.0.18362/NAudio.Wasapi.xml",
+        "naudio-icon.png",
+        "naudio.wasapi.2.2.1.nupkg.sha512",
+        "naudio.wasapi.nuspec"
+      ]
+    },
+    "NAudio.WinForms/2.2.1": {
+      "sha512": "DlDkewY1myY0A+3NrYRJD+MZhZV0yy1mNF6dckB27IQ9XCs/My5Ip8BZcoSHOsaPSe2GAjvoaDnk6N9w8xTv7w==",
+      "type": "package",
+      "path": "naudio.winforms/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.WinForms.dll",
+        "lib/net472/NAudio.WinForms.xml",
+        "lib/netcoreapp3.1/NAudio.WinForms.dll",
+        "lib/netcoreapp3.1/NAudio.WinForms.xml",
+        "naudio-icon.png",
+        "naudio.winforms.2.2.1.nupkg.sha512",
+        "naudio.winforms.nuspec"
+      ]
+    },
+    "NAudio.WinMM/2.2.1": {
+      "sha512": "xFHRFwH4x6aq3IxRbewvO33ugJRvZFEOfO62i7uQJRUNW2cnu6BeBTHUS0JD5KBucZbHZaYqxQG8dwZ47ezQuQ==",
+      "type": "package",
+      "path": "naudio.winmm/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.WinMM.dll",
+        "lib/netstandard2.0/NAudio.WinMM.xml",
+        "naudio-icon.png",
+        "naudio.winmm.2.2.1.nupkg.sha512",
+        "naudio.winmm.nuspec"
+      ]
+    },
+    "OpenTK/3.1.0": {
+      "sha512": "xoP5kb81lRSY5RzbntaFA9yXK+aGF5SLShhns55MyZtxtNafIxRH5KvRTFss/N653brTzE+AfepjKsbMexYlBQ==",
+      "type": "package",
+      "path": "opentk/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/OpenTK.dll.config",
+        "lib/net20/OpenTK.dll",
+        "lib/net20/OpenTK.pdb",
+        "lib/net20/OpenTK.xml",
+        "opentk.3.1.0.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "OpenTK.GLControl/3.1.0": {
+      "sha512": "BjDzF+MhJd2LaZYzkXmgkzzXgHAko/Iur4rGy6+DPdZA1Jcc0X6jXZ6QsUsjlLRNzgevO7uAj2h1TqX7sguaYg==",
+      "type": "package",
+      "path": "opentk.glcontrol/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/OpenTK.GLControl.dll",
+        "lib/net20/OpenTK.GLControl.pdb",
+        "lib/net20/OpenTK.GLControl.xml",
+        "opentk.glcontrol.3.1.0.nupkg.sha512",
+        "opentk.glcontrol.nuspec"
+      ]
+    },
+    "SimpleBase/1.3.1": {
+      "sha512": "TqqQc+WFg3s10/PdnI2Dio0U7xEmVXhkf+ey4tOGZzjyd054rnNOLNVahJhMYmfBQdS7/jkVqC8xzLm/bkR3EA==",
+      "type": "package",
+      "path": "simplebase/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SimpleBase.dll",
+        "lib/net45/SimpleBase.pdb",
+        "lib/netstandard1.3/SimpleBase.dll",
+        "lib/netstandard1.3/SimpleBase.pdb",
+        "simplebase.1.3.1.nupkg.sha512",
+        "simplebase.nuspec"
+      ]
+    },
+    "SkiaSharp/3.119.0": {
+      "sha512": "gR9yVoOta2Mc1Rxt15LD65AckfHMfwjIs/3kkD59C9bT2nYYISsE6uz3t4aMPNHA6CgsIL0Ssn+jE5OVilZ1yw==",
+      "type": "package",
+      "path": "skiasharp/3.119.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.pdb",
+        "lib/net6.0/SkiaSharp.dll",
+        "lib/net6.0/SkiaSharp.pdb",
+        "lib/net8.0-android34.0/SkiaSharp.dll",
+        "lib/net8.0-android34.0/SkiaSharp.pdb",
+        "lib/net8.0-android34.0/SkiaSharp.xml",
+        "lib/net8.0-ios17.0/SkiaSharp.dll",
+        "lib/net8.0-ios17.0/SkiaSharp.pdb",
+        "lib/net8.0-maccatalyst17.0/SkiaSharp.dll",
+        "lib/net8.0-maccatalyst17.0/SkiaSharp.pdb",
+        "lib/net8.0-macos14.0/SkiaSharp.dll",
+        "lib/net8.0-macos14.0/SkiaSharp.pdb",
+        "lib/net8.0-tizen7.0/SkiaSharp.dll",
+        "lib/net8.0-tizen7.0/SkiaSharp.pdb",
+        "lib/net8.0-tvos17.0/SkiaSharp.dll",
+        "lib/net8.0-tvos17.0/SkiaSharp.pdb",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.dll",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.pdb",
+        "lib/net8.0/SkiaSharp.dll",
+        "lib/net8.0/SkiaSharp.pdb",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.pdb",
+        "lib/netstandard2.1/SkiaSharp.dll",
+        "lib/netstandard2.1/SkiaSharp.pdb",
+        "ref/net462/SkiaSharp.dll",
+        "ref/net6.0/SkiaSharp.dll",
+        "ref/net8.0-android34.0/SkiaSharp.dll",
+        "ref/net8.0-ios17.0/SkiaSharp.dll",
+        "ref/net8.0-maccatalyst17.0/SkiaSharp.dll",
+        "ref/net8.0-macos14.0/SkiaSharp.dll",
+        "ref/net8.0-tizen7.0/SkiaSharp.dll",
+        "ref/net8.0-tvos17.0/SkiaSharp.dll",
+        "ref/net8.0-windows10.0.19041/SkiaSharp.dll",
+        "ref/net8.0/SkiaSharp.dll",
+        "ref/netstandard2.0/SkiaSharp.dll",
+        "ref/netstandard2.1/SkiaSharp.dll",
+        "skiasharp.3.119.0.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.HarfBuzz/3.119.0": {
+      "sha512": "5ocGzl+RYEZFnUPUbModshnEFvKTku4hTtOBsLvy5MCK2KAHjq5Nw2+uAVUx79Rjh0z8fTojT6ZVav8MJgW0ug==",
+      "type": "package",
+      "path": "skiasharp.harfbuzz/3.119.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/SkiaSharp.HarfBuzz.dll",
+        "lib/net462/SkiaSharp.HarfBuzz.pdb",
+        "lib/net6.0/SkiaSharp.HarfBuzz.dll",
+        "lib/net6.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/net8.0/SkiaSharp.HarfBuzz.dll",
+        "lib/net8.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.pdb",
+        "skiasharp.harfbuzz.3.119.0.nupkg.sha512",
+        "skiasharp.harfbuzz.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.macOS/3.119.0": {
+      "sha512": "YE1vNn0Nyw2PWtv7hw1PYkKJO0itFiQp9vSqGppZUKzQJqwp28a2jgdCMPfYtOiR8KCnDgZqQoynqJRRaE2ZVg==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.macos/3.119.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net8.0-macos14.0/SkiaSharp.NativeAssets.macOS.targets",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net6.0/_._",
+        "lib/net8.0-macos14.0/_._",
+        "lib/net8.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "skiasharp.nativeassets.macos.3.119.0.nupkg.sha512",
+        "skiasharp.nativeassets.macos.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Win32/3.119.1": {
+      "sha512": "8C4GSXVJqSr0y3Tyyv5jz6MJSTVUyYkMjeKrzK+VyZPGLo89MNoUEclVuYahzOCDdtbfXrd2HtxXfDuvoSXrUw==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.win32/3.119.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "icon.png",
+        "lib/net462/_._",
+        "lib/net6.0-windows10.0.19041/_._",
+        "lib/net6.0/_._",
+        "lib/net8.0-windows10.0.19041/_._",
+        "lib/net8.0/_._",
+        "lib/netstandard2.0/_._",
+        "lib/netstandard2.1/_._",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "skiasharp.nativeassets.win32.3.119.1.nupkg.sha512",
+        "skiasharp.nativeassets.win32.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Desktop.Common/3.119.0": {
+      "sha512": "KST7Q3n+X5BhDj1aKTJXk9tITWWznveka9n+pBjOtE53Omc+wlZR0s4fQStybWCVVaWG9eaeOMaw93J3zEMklA==",
+      "type": "package",
+      "path": "skiasharp.views.desktop.common/3.119.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net462/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/net6.0-windows10.0.19041/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net6.0-windows10.0.19041/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/net6.0/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net6.0/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/net8.0/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/net8.0/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/netstandard2.0/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/netstandard2.0/SkiaSharp.Views.Desktop.Common.pdb",
+        "lib/netstandard2.1/SkiaSharp.Views.Desktop.Common.dll",
+        "lib/netstandard2.1/SkiaSharp.Views.Desktop.Common.pdb",
+        "skiasharp.views.desktop.common.3.119.0.nupkg.sha512",
+        "skiasharp.views.desktop.common.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.WindowsForms/3.119.0": {
+      "sha512": "eAX6uACXkyvT1iID+d7gTYM7oP7ptUVwRjOlBe4DtAfTYxhtCCWi+KTsskhEydG0yfIqA890krHplqjPmLhALQ==",
+      "type": "package",
+      "path": "skiasharp.views.windowsforms/3.119.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/SkiaSharp.Views.WindowsForms.dll",
+        "lib/net462/SkiaSharp.Views.WindowsForms.pdb",
+        "lib/net6.0-windows10.0.19041/SkiaSharp.Views.WindowsForms.dll",
+        "lib/net6.0-windows10.0.19041/SkiaSharp.Views.WindowsForms.pdb",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.Views.WindowsForms.dll",
+        "lib/net8.0-windows10.0.19041/SkiaSharp.Views.WindowsForms.pdb",
+        "skiasharp.views.windowsforms.3.119.0.nupkg.sha512",
+        "skiasharp.views.windowsforms.nuspec"
+      ]
+    },
+    "System.Drawing.Common/9.0.0": {
+      "sha512": "uoozjI3+dlgKh2onFJcz8aNLh6TRCPlLSh8Dbuljc8CdvqXrxHOVysJlrHvlsOCqceqGBR1wrMPxlnzzhynktw==",
+      "type": "package",
+      "path": "system.drawing.common/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Private.Windows.Core.dll",
+        "lib/net8.0/System.Private.Windows.Core.xml",
+        "lib/net9.0/System.Drawing.Common.dll",
+        "lib/net9.0/System.Drawing.Common.pdb",
+        "lib/net9.0/System.Drawing.Common.xml",
+        "lib/net9.0/System.Private.Windows.Core.dll",
+        "lib/net9.0/System.Private.Windows.Core.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.9.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.7.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WindowsAPICodePack-Core/1.1.2": {
+      "sha512": "tGEkicg61OvHHuFyD4Vu8H4R0q5H1dlpN6fqjdYG+MGIp16znEVo/I+LhMTx3nKpM46reCcE6oC8fJqVJix2Bg==",
+      "type": "package",
+      "path": "windowsapicodepack-core/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Microsoft.WindowsAPICodePack.dll",
+        "lib/Microsoft.WindowsAPICodePack.xml",
+        "windowsapicodepack-core.1.1.2.nupkg.sha512",
+        "windowsapicodepack-core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "DirectShowLib >= 1.0.0",
+      "FFmpeg.AutoGen >= 7.1.1",
+      "LiveChartsCore.SkiaSharpView.WinForms >= 2.0.0-rc6.1",
+      "Makaretu.Dns >= 2.0.1",
+      "NAudio >= 2.2.1",
+      "SkiaSharp >= 3.119.0",
+      "SkiaSharp.HarfBuzz >= 3.119.0",
+      "SkiaSharp.NativeAssets.Win32 >= 3.119.1",
+      "SkiaSharp.Views.WindowsForms >= 3.119.0",
+      "System.Drawing.Common >= 9.0.0",
+      "WindowsAPICodePack-Core >= 1.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "projectName": "CinecorePlayer2025",
+      "projectPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\CinecorePlayer2025.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicol\\Downloads\\Player\\CinecorePlayer2025\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "DirectShowLib": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "FFmpeg.AutoGen": {
+            "target": "Package",
+            "version": "[7.1.1, )"
+          },
+          "LiveChartsCore.SkiaSharpView.WinForms": {
+            "target": "Package",
+            "version": "[2.0.0-rc6.1, )"
+          },
+          "Makaretu.Dns": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
+          "SkiaSharp.HarfBuzz": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
+          "SkiaSharp.NativeAssets.Win32": {
+            "target": "Package",
+            "version": "[3.119.1, )"
+          },
+          "SkiaSharp.Views.WindowsForms": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "WindowsAPICodePack-Core": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'DirectShowLib 1.0.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "DirectShowLib",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'LiveChartsCore.SkiaSharpView.WinForms 2.0.0-rc6.1' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "LiveChartsCore.SkiaSharpView.WinForms",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'OpenTK 3.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'OpenTK.GLControl 3.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'SkiaSharp.Views.WindowsForms 3.119.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "SkiaSharp.Views.WindowsForms",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'WindowsAPICodePack-Core 1.1.2' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net9.0-windows7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "WindowsAPICodePack-Core",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}
