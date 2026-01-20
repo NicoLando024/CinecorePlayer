@@ -8,7 +8,11 @@
 [![Downloads](https://img.shields.io/github/downloads/NicoLando024/CinecorePlayer/total.svg)](https://github.com/NicoLando024/CinecorePlayer/releases)
 [![Stars](https://img.shields.io/github/stars/NicoLando024/CinecorePlayer.svg?style=social&label=Star)](https://github.com/NicoLando024/CinecorePlayer)
 
-A **free**, **non‑commercial** media player for Windows, written in **C# / .NET 9.0**, built on a **unified DirectShow engine** with smart HDR handling and multiple **video renderer backends** — **madVR**, **MPC Video Renderer (MPCVR)**, and **EVR**.
+A **free**, **non‑commercial** media player for **Windows**, built in **C# / .NET 9.0** and powered by a **unified DirectShow engine**.  
+It features intelligent **HDR management** and supports multiple high‑end **video renderer backends**, including **madVR**, **MPC Video Renderer (MPCVR)**, and **EVR**.
+
+Designed also for **audiophiles**, the player includes a dedicated **Audio Mode** with real‑time visualizations such as **oscilloscope** and **spectrum analyzer**.  
+Audio output supports both **bitstream** and **PCM**, with full compatibility for **exclusive** and **non‑exclusive** modes.
 
 ---
 
