@@ -45,7 +45,7 @@ Audio output supports both **bitstream** and **PCM**, with full compatibility fo
   Fully operational, with planned quality‑of‑life improvements.
 
 - **HUD / On‑Screen Display**  
-  Generally stable and responsive.
+  Generally stable but not responsive.
 
 - **Online Remote Control**  
   Nearly fully integrated and works consistently during playback.
