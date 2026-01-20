@@ -10,6 +10,16 @@
 
 A **free**, **non-commercial** media player for Windows, written in **C# / .NET 9.0**, built on a **unified DirectShow engine** with smart HDR handling and multiple **video renderer backends** — **madVR**, **MPC Video Renderer (MPCVR)**, and **EVR**.
 
-![descrizione](Screenshots/home.png)
+![Description](Screenshots/home.png)
+
+![descrizione](Screenshots/library.png)
+
+![descrizione](Screenshots/audio-graphs.png)
+
+![descrizione](Screenshots/video-player.png)
+
+![descrizione](Screenshots/info-overlay.png)
+
+
 
 
