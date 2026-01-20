@@ -8,18 +8,83 @@
 [![Downloads](https://img.shields.io/github/downloads/NicoLando024/CinecorePlayer/total.svg)](https://github.com/NicoLando024/CinecorePlayer/releases)
 [![Stars](https://img.shields.io/github/stars/NicoLando024/CinecorePlayer.svg?style=social&label=Star)](https://github.com/NicoLando024/CinecorePlayer)
 
-A **free**, **non-commercial** media player for Windows, written in **C# / .NET 9.0**, built on a **unified DirectShow engine** with smart HDR handling and multiple **video renderer backends** — **madVR**, **MPC Video Renderer (MPCVR)**, and **EVR**.
+A **free**, **non‑commercial** media player for Windows, written in **C# / .NET 9.0**, built on a **unified DirectShow engine** with smart HDR handling and multiple **video renderer backends** — **madVR**, **MPC Video Renderer (MPCVR)**, and **EVR**.
 
-![Description](Screenshots/home.png)
+---
 
-![descrizione](Screenshots/library.png)
+## 📸 Screenshots
 
-![descrizione](Screenshots/audio-graphs.png)
+![Home](Screenshots/home.png)
 
-![descrizione](Screenshots/video-player.png)
+![Library](Screenshots/library.png)
 
-![descrizione](Screenshots/info-overlay.png)
+![Audio Graphs](Screenshots/audio-graphs.png)
 
+![Video Player](Screenshots/video-player.png)
 
+![Info Overlay](Screenshots/info-overlay.png)
 
+---
 
+## ✅ Working features
+
+- **Video playback via madVR and EVR**  
+  Core playback is stable on both renderers.
+
+- **Audio playback (PCM & Bitstream)**  
+  Standard playback works reliably across formats.
+
+- **Audio graphs**  
+  Rendering is functional; overall accuracy appears correct, pending further validation.
+
+- **Photo viewer**  
+  Fully operational, with planned quality‑of‑life improvements.
+
+- **HUD / On‑Screen Display**  
+  Generally stable and responsive.
+
+- **Online Remote Control**  
+  Nearly fully integrated and works consistently during playback.
+
+---
+
+## ⚠️ Known issues
+
+- **Renderer settings not yet integrated**  
+  Player‑side configuration panels are incomplete; users must adjust settings directly inside each renderer (madVR / EVR).
+
+- **HUD visual glitches**  
+  Occasional minor graphical artifacts still under investigation.
+
+- **Remote pairing persistence**  
+  Device pairing is not saved reliably; the player may request re‑pairing on each startup.
+
+- **Audio graphs in exclusive PCM mode**  
+  In audio‑only playback, graphs work only in non‑exclusive PCM. Exclusive mode support is planned.
+
+- **DLNA module**  
+  Highly incomplete and prone to errors despite partial implementation.
+
+---
+
+## 🚧 Current limitations
+
+- **3D‑to‑2D conversion**  
+  Currently functional only with EVR; madVR support is planned.
+
+- **Player settings coverage**  
+  Several configuration sections are only partially implemented.
+
+---
+
+## 🛠️ In development
+
+- **Favorites**
+- **Playlists**
+- **YouTube integration**
+- **DLNA improvements**
+- **Expanded renderer settings**
+- **Additional HUD refinements**
+- **General QoL enhancements across the UI**
+
+Many other addition are being developed.
