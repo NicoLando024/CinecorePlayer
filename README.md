@@ -92,3 +92,4 @@ Audio output supports both **bitstream** and **PCM**, with full compatibility fo
 - **General QoL enhancements across the UI**
 
 Many other addition are being developed.
+English localization is in development.
