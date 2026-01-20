@@ -69,6 +69,9 @@ Audio output supports both **bitstream** and **PCM**, with full compatibility fo
 - **DLNA module**  
   Highly incomplete and prone to errors despite partial implementation.
 
+  **MPCVR not Working**  
+  MPCVR doesn't work.
+
 ---
 
 ## 🚧 Current limitations
